@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component , OnInit } from '@angular/core';
+import { concat , concatMap , interval , of , merge , takeUntil , takeWhile , mergeMap , forkJoin } from 'rxjs';
+import { map , tap } from 'rxjs/operators';
 
 @Component( {
 	selector    : 'app-root' ,
